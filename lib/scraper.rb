@@ -1,3 +1,4 @@
+require 'pry'
 require 'nokogiri'
 require 'open-uri'
 
@@ -21,6 +22,6 @@ class Scraper
     end
   end
 
-  Scraper.new.get_page 
+  Scraper.new.get_page
 
 end
